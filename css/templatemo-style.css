@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 /* font-family: 'Kalam', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* font-family: 'Satisfy', cursive; */
 
 html {
   font-size: 18px;
@@ -57,7 +59,11 @@ a:focus {
   background-color: #73c1f6;
 }
 
+/* Header Spacing */
 
+.header-spacing {
+  height: 50px;
+}
 
 /* Hero */
 
@@ -135,11 +141,11 @@ a:focus {
 
 .tm-down-arrow-link {
   display: block;
-  margin-top: 18%;
+  margin-top: -63%;
 }
 
 .tm-down-arrow {
-  color: #c57e7d;
+  color: #333;
   cursor: pointer;
   background: white;
   border-radius: 50%;
@@ -150,7 +156,7 @@ a:focus {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: white;
-  background: #3496d8;
+  background-color: #333;
 }
 
 /* Introduction */
@@ -159,11 +165,14 @@ a:focus {
 }
 
 .tm-section-title {
+  font-family: 'Satisfy', cursive;
   font-size: 2.6rem;
+  color: peru; 
   font-weight: normal;
 }
 
 .tm-intro-text {
+  font-family: 'Satisfy', cursive;
   font-size: 1.2rem;
   line-height: 1.4;
 }
