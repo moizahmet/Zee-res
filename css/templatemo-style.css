@@ -2,9 +2,14 @@
 /* font-family: 'Kalam', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 /* font-family: 'Satisfy', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Kanit', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&display=swap');
+/*font-family: 'Caveat', cursive;*/
 
 html {
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -59,6 +64,23 @@ a:focus {
   background-color: #73c1f6;
 }
 
+.tm-hero-text-container {
+  animation-name: sec1-text-move;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-direction: normal;
+}
+
+@keyframes sec1-text-move {
+  from {
+    transform: translateX(-450px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
 /* Header Spacing */
 
 .header-spacing {
@@ -109,13 +131,14 @@ a:focus {
 }
 
 .tm-hero-text-container-inner {
-  margin-top: -90px;
+  margin-top: -250px;
 }
 
 .tm-hero-title {
-  font-size: 3.5rem;
-  text-shadow: 2px 2px 2px #333;
-  font-family: 'Kalam', cursive;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 10px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-family: 'Satisfy', cursive;
 }
 
 .tm-hero-subtitle {
@@ -172,7 +195,7 @@ a:focus {
 }
 
 .tm-intro-text {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 1.2rem;
   line-height: 1.4;
 }
@@ -188,3 +211,8 @@ a:focus {
 
   height: 50px;
 }
+
+
+
+
+
